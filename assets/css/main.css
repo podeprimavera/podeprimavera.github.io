@@ -12,9 +12,7 @@ src: local('../../Magnolia Sky'), url('../../magnolia_sky.woff') format('woff');
 }
 
 /*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	
 */
 
 html, body, div, span, applet, object,
@@ -189,6 +187,28 @@ input, select, textarea {
 		margin-top:2em;
 		text-align:center;
 		display:block;}
+		
+		@media screen and (max-width: 420px) {
+
+			.textocentral{
+		margin-left:0em;
+		margin-right:0em;
+		margin-top:1em;
+		text-align:center;
+		display:block;}
+		
+		}
+		
+			@media screen and (max-width: 320px) {
+
+			.textocentral{
+		margin-left:0em;
+		margin-right:0em;
+		margin-top:1em;
+		text-align:center;
+		display:block;}
+		
+		}
 		
 		.titulos{
 		margin-right:6em;
@@ -2977,7 +2997,29 @@ input, select, textarea {
 						#header nav ul li a[href="#menu"]:hover:after {
 							opacity: 0;
 						}
-
+@media screen and (max-width: 420px) {
+		#header .logo .symbol {
+				margin:auto;
+			}
+			#header .logo .symbol img {
+					display: block;
+					width: 100%;
+					margin:0;
+					
+				}
+	}
+	
+	@media screen and (max-width: 320px) {
+		#header .logo .symbol {
+				margin:auto;
+			}
+			#header .logo .symbol img {
+					display: block;
+					width: 100%;
+					margin:0;
+					
+				}
+	}
 		@media screen and (max-width: 736px) {
 
 			#header {
@@ -3200,6 +3242,7 @@ input, select, textarea {
 			}
 
 		}
+		
 
 /* Footer */
 
