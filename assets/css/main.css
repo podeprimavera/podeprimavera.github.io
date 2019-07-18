@@ -1964,19 +1964,26 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -1em;
 		padding-left: 0;
+		display:block;
+		margin:auto;
+		text-align:center;
 	}
 
 
 	ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
+			display:inline;
+			list-style: none;
+			
 
 		}
 		ul.actions li.dois {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
+			display:inline;
+			list-style: none;
 			margin:auto;
 		}
 
